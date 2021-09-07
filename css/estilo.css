@@ -1,0 +1,810 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+/* Menu */
+.IndexHead {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  /*  height: 100px; */
+  justify-content: flex-end;
+  margin-top: 20px; }
+
+.fixed-top {
+  position: absolute; }
+
+.navbar {
+  display: flex;
+  justify-content: left;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #f1f1f1; }
+
+.navbar-nav {
+  justify-items: center;
+  margin-top: 20px;
+  background-color: black; }
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+  margin-left: 10px; }
+
+.navbar-toggler {
+  font-size: 1.8em; }
+
+.navbar-nav .nav-link {
+  padding-right: 8px;
+  padding-left: 8px; }
+
+.navbar-brand {
+  margin-left: 25px;
+  font-size: 2.1rem;
+  margin-top: 20px; }
+
+.navbar-brand:hover {
+  color: #ff5100; }
+
+.dropdown-menu {
+  background-color: #ffc10796; }
+
+.dropdown-item {
+  font-size: 1.2rem;
+  font-weight: 600; }
+
+.navbar-toggler {
+  font-size: 1.2em; }
+
+/* iconos redes sociales - Top */
+.iconosHead__lista {
+  display: flex;
+  z-index: 1030;
+  position: absolute;
+  justify-content: right;
+  right: 141px;
+  margin-top: 10px;
+  list-style: none; }
+
+.iconosHead a {
+  color: #f3f2fa; }
+
+.iconosHead__social {
+  padding: 20px; }
+
+.iconosHead a:hover {
+  color: orange; }
+
+/*Index*/
+.bg-image {
+  background-image: url("../imagenes/faros.jpg");
+  filter: grayscale 80%;
+  -webkit-filter: grayscale(40%);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px; }
+
+.headIndex {
+  background-color: rgba(0, 0, 0, 0.507);
+  border: 1px solid #0c0c0c;
+  color: #e8e7f0;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 2; }
+
+.headIndex__titulo {
+  padding: 20px;
+  text-align: center;
+  font-size: 95px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 95px; }
+
+.headIndex__subtitulo {
+  color: #e8e7f0;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 6px;
+  font-size: 38px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase; }
+
+/* titulos de cajas */
+.textosIndex {
+  color: #030325;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px; }
+
+.cajaSubtitulo {
+  background-color: rgba(0, 0, 0, 0.726);
+  color: #e8e7f0;
+  font-weight: bold;
+  border: 2px solid #f1f1f1;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 80px; }
+  .cajaSubtitulo p {
+    font-size: 24px;
+    letter-spacing: 2px; }
+
+.ver {
+  font-size: 1.2rem;
+  margin: 25px;
+  color: #e8e7f0;
+  margin-bottom: 20px;
+  text-align: end; }
+
+a.ver:hover {
+  color: orange; }
+
+/*---------Botones Index-------------*/
+.BotonIndex {
+  border-radius: 10px;
+  background-color: crimson;
+  height: 44px;
+  width: 159px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 2s;
+  color: beige;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.btn:hover {
+  background-color: #d88913; }
+
+/* Tarjetas */
+.cardsContainer {
+  display: flex;
+  flex: row;
+  justify-content: space-around; }
+
+.cardsContainer__tarjetas {
+  background-color: #e2c9b2;
+  border: solid 1.5px black;
+  border-radius: 4px;
+  width: 350px;
+  height: 400px;
+  transition: all 1s;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  margin-bottom: 150px; }
+  .cardsContainer__tarjetas img {
+    border-radius: 8px;
+    object-fit: cover; }
+
+.cardsContainer__tarjetas:nth-child(1) {
+  background-color: #e0a064; }
+
+.cardsContainer__tarjetas:nth-child(1):hover {
+  transform: rotate(10deg);
+  background-color: #eb2c52; }
+
+.cardsContainer__tarjetas:nth-child(2) {
+  background-color: #e0a064; }
+
+.cardsContainer__tarjetas:nth-child(2):hover {
+  transform: rotate(10deg);
+  background-color: #eb2c52; }
+
+.cardsContainer__tarjetas:nth-child(3) {
+  background-color: #e0a064; }
+
+.cardsContainer__tarjetas:nth-child(3):hover {
+  transform: rotate(10deg);
+  background-color: #eb2c52; }
+
+.contenedor, .contenedor-dos {
+  max-width: 70%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 25px; }
+
+.caja, .caja-dos {
+  border-radius: 8px;
+  border: solid 2px rgba(248, 246, 231, 0.699);
+  display: flex;
+  align-items: center;
+  padding-right: 25px;
+  padding-top: 15px; }
+
+.caja__img {
+  width: 280px;
+  height: 250px;
+  border-radius: 30px;
+  padding: 20px;
+  margin-right: 15px; }
+
+.caja__titulo, .caja-dos__titulo {
+  color: antiquewhite;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  padding: 15px; }
+
+.caja__texto, .caja-dos__texto {
+  font-size: 1.4em;
+  color: antiquewhite;
+  padding: 20px; }
+
+.caja-dos__img {
+  width: 300px;
+  height: 250px;
+  border-radius: 30px;
+  padding: 20px;
+  margin-right: 15px; }
+
+/* Responsive */
+@media (max-width: 500px) {
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap; }
+  .tarjetasIndex {
+    margin-top: 10px; }
+  h1.TituloGaleria {
+    font-size: 3rem; }
+  p.galeria {
+    font-size: 24px; }
+  .carousel {
+    margin-bottom: 20px; }
+  h1.Head__title {
+    font-size: 3em; }
+  p.Head__text {
+    font-size: 20px; }
+  /* label.Nombre{
+   font-size: 1.4rem;
+}
+label.Apellido{
+    font-size: 1.4rem;
+} */
+  .Formulario {
+    font-size: 1.4rem; } }
+
+@media (max-width: 1024px) {
+  #titulo {
+    font-size: 60px;
+    text-align: justify; }
+  #Subtitulo {
+    font-size: 20px; } }
+
+@media only screen and (max-width: 768px) {
+  /* INDEX */
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap; }
+  .cardsContainer__tarjetas {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  .headIndex__titulo {
+    font-size: 60px;
+    text-transform: capitalize; }
+  .headIndex__subtitulo {
+    font-size: 20px; }
+  .caja, .caja-dos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+  /* Experiencias */
+  h1.Titulo__1 {
+    font-size: 54px;
+    text-transform: capitalize;
+    letter-spacing: 2px; }
+  p.Titulo__texto {
+    font-size: 24px; }
+  .Visitas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+  .Visitas__cards {
+    margin-bottom: 20px; }
+  .articulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  p.Galeria_texto {
+    font-size: 20px; }
+  h1.TituloContacto {
+    font-size: 45px; }
+  p.SubtituloContacto {
+    font-size: 25px; }
+  p.TextoContacto {
+    font-size: 22px; }
+  form.Formulario {
+    font-size: 1.2rem;
+    align-items: stretch;
+    justify-content: center; }
+  .input {
+    width: 150px; } }
+
+@media only screen and (min-width: 769px) {
+  .nav-item {
+    margin: 0px 8px;
+    border-radius: 6px;
+    padding: 5px; }
+  .headIndex__titulo {
+    font-size: 80px; }
+  .headIndex__subtitulo {
+    font-size: 40px; } }
+
+@media only screen and (max-width: 991px) {
+  .navbar-expand-lg .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.507);
+    margin-top: 30px;
+    border-radius: 6px; }
+  .navbar {
+    transform: translateY(-1%); } }
+
+/*Pie de pagina*/
+.footer {
+  margin-top: 150px;
+  border-top: solid 1px rgba(177, 173, 173, 0.534);
+  padding-bottom: 40px; }
+
+.footer__contacto {
+  color: #e8e7f0;
+  padding-top: 10px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px; }
+
+.footer__link:hover {
+  color: orange; }
+
+.footer__link {
+  color: #e8e7f0;
+  text-decoration: none; }
+
+.footer__iconos {
+  margin: auto;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center; }
+
+.footer__i {
+  padding: 20px; }
+
+.footer__a {
+  color: #e8e7f0; }
+
+.footer__a:hover {
+  color: orange; }
+
+.footer-end {
+  text-align: center;
+  margin-top: 30px; }
+
+/*Seccion Experiencias*/
+.bg-image1 {
+  background-image: url("../imagenes/bahia.jpg");
+  filter: grayscale 80%;
+  -webkit-filter: grayscale(60%);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px; }
+
+.Titulo {
+  background-color: rgba(0, 0, 0, 0.63);
+  border: 1px solid #0c0c0c;
+  color: #e8e7f0;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 2; }
+
+.Titulo__1 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-size: 70px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center; }
+
+.Titulo__texto {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: #f5eded;
+  padding: 40px;
+  margin: 50px; }
+
+/* Tarjetas */
+.Visitas {
+  padding: 10px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around; }
+
+.Visitas__titulo {
+  font-size: 24px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #ffffff4d;
+  border-radius: 4px; }
+
+.Visitas__img {
+  width: 150px;
+  height: 200px; }
+
+.Visitas__cards {
+  color: #f0e5e5;
+  border: solid 1.5px #fcf8f8;
+  border-radius: 4px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  padding: 30px; }
+
+.Visitas__cards:nth-child(1) {
+  background-image: url("../imagenes/PNtdf.jpg");
+  background-size: cover; }
+
+.Visitas__cards:nth-child(2) {
+  background-image: url("../imagenes/faros.jpg");
+  background-size: cover; }
+
+.Visitas__cards:nth-child(3) {
+  background-image: url("../imagenes/ciudad.jpg");
+  background-size: cover; }
+
+.Caja-fechas {
+  margin-top: 40px;
+  width: 100%;
+  height: 250px;
+  object-position: bottom;
+  text-align: center; }
+
+.Caja-fechas__titulo {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f5eded; }
+
+.Caja-fechas__btn {
+  border-radius: 10px;
+  background-color: #dc7f14;
+  height: 44px;
+  width: 159px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.Caja-fechas__btn:hover {
+  background-color: orangered; }
+
+.Caja-fechas__a {
+  color: beige;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none; }
+
+.Caja-fechas__a:hover {
+  color: #e9e4c2; }
+
+/* Seccion Galeria */
+.bg-image2 {
+  background-image: url("../imagenes/ush.jpg");
+  filter: grayscale 80%;
+  -webkit-filter: grayscale(80%);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px; }
+
+.Galeria {
+  background-color: rgba(0, 0, 0, 0.808);
+  border: 1px solid #0c0c0c;
+  color: #e8e7f0;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 2; }
+
+.Galeria_texto {
+  padding: 40px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: #f5eded; }
+
+/*------Tarjetas-------- */
+.carousel {
+  height: 50%;
+  margin: 0 auto;
+  transform: translateY(-160px);
+  border: solid 2px #cdcaca;
+  padding: 0.5px;
+  border-radius: 5px;
+  margin-bottom: 25px; }
+
+.container-sm {
+  max-width: 1000px; }
+
+.carousel-caption {
+  font-size: 2.5rem; }
+
+.carousel-caption h5 {
+  font-size: 2rem; }
+
+.cardsGaleria {
+  text-align: center;
+  width: 390px;
+  height: 350px;
+  border: none;
+  border-radius: 4px;
+  padding-top: 10px;
+  margin: 20px;
+  color: black;
+  background-color: #8eb8e6;
+  box-shadow: 2px 2px 5px #e3dbdb85; }
+
+.cardsGaleria .img {
+  border-radius: 8px;
+  object-fit: cover;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px; }
+
+.GaleriaContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center; }
+
+/*Seccion Mi_Seleccion*/
+.bg-image3 {
+  background-image: url("../imagenes/andes.jpg");
+  filter: grayscale 80%;
+  -webkit-filter: grayscale(40%);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px; }
+
+.Head {
+  background-color: rgba(0, 0, 0, 0.507);
+  border: 1px solid #0c0c0c;
+  color: #e8e7f0;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 2; }
+
+.Head__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 90px;
+  color: #e8e7f0;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center; }
+
+.Head__text {
+  color: white;
+  width: 80%;
+  padding: 20px;
+  font-size: 28px;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  margin-top: 100px;
+  line-height: 2.5em;
+  margin-bottom: 50px; }
+
+.card {
+  width: 400px;
+  box-shadow: 1.8px 2px 2px #f8f5f5;
+  margin-bottom: 20px; }
+
+.articulos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+  color: black; }
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+.card-text {
+  font-size: 18px; }
+
+.card-img-top {
+  height: 50%;
+  object-fit: cover; }
+
+/*Seccion Contacto*/
+.bg-image4 {
+  background-image: url("../imagenes/sign.jpg");
+  filter: grayscale 80%;
+  -webkit-filter: grayscale(60%);
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px; }
+
+.ReservaAhora {
+  margin-top: 35px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.507);
+  border: 1px solid #0c0c0c;
+  color: #e8e7f0;
+  width: 80%;
+  margin-bottom: 100px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 2; }
+
+.TituloContacto {
+  margin-top: 70px;
+  font-size: 60px;
+  margin-bottom: 5px; }
+
+.TextoContacto {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  color: #f1f1e0;
+  font-size: 28px;
+  text-align: center; }
+
+.SubtituloContacto {
+  font-size: 2.5rem;
+  color: #f8f2f2;
+  margin-top: 15px; }
+
+input, #Experiencia {
+  background-color: #f3e9e9;
+  width: 200px;
+  height: 45px;
+  border-radius: 4px;
+  font-family: 'Open Sans Condensed';
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+input {
+  background-color: #f8f2f2;
+  width: 210px;
+  height: 38px;
+  border-radius: 4px;
+  font-family: 'Open Sans Condensed';
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px; }
+
+.Formulario {
+  margin: 70px auto;
+  color: #f8f8f4;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 2px;
+  width: 500px;
+  height: 600px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: repeat(6, 1fr) 2fr;
+  align-content: center;
+  grid-gap: 30px; }
+
+.Formulario #Nombre {
+  grid-row: 1/2;
+  grid-column: 2/3; }
+
+.Formulario .Nombre {
+  grid-row: 1/2;
+  grid-column: 1/2; }
+
+.Formulario #Apellido {
+  grid-row: 2/3;
+  grid-column: 2/3; }
+
+.Formulario .Apellido {
+  grid-row: 2/3;
+  grid-column: 1/2; }
+
+.Formulario #email {
+  grid-row: 3/4;
+  grid-column: 2/3; }
+
+.Formulario .email {
+  grid-row: 3/4;
+  grid-column: 1/2; }
+
+.Formulario .Experiencia {
+  grid-row: 4/5;
+  grid-column: 1/2; }
+
+.Formulario #Experiencia {
+  grid-row: 4/5;
+  grid-column: 2/3; }
+
+.Formulario .Novedades {
+  grid-row: 5/6;
+  grid-column: 1/2; }
+
+.Formulario #checkbox {
+  grid-row: 5/6;
+  grid-column: 2/3;
+  justify-self: left;
+  width: 40px;
+  height: 25px; }
+
+.Formulario #Comentarios {
+  grid-row: 6/8;
+  grid-column: 1/3;
+  width: 450px;
+  justify-self: center; }
+
+.Formulario #boton-1 {
+  grid-row: 8/9;
+  grid-column: 1/2;
+  justify-self: center;
+  background: orangered;
+  height: 48px;
+  width: 160px; }
+
+.Formulario #boton-2 {
+  grid-row: 8/9;
+  grid-column: 2/3;
+  background: orangered;
+  height: 48px;
+  width: 160px;
+  justify-self: center; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #e8e7f0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #010c0c;
+  font-size: 1rem; }

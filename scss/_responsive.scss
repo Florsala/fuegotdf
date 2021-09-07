@@ -1,0 +1,187 @@
+
+
+/* Responsive */
+
+
+@media (max-width:500px){
+    .cardsContainer{
+        display: flex;
+        flex-wrap: wrap;
+     }
+ .tarjetasIndex{
+     margin-top: 10px;
+ }
+
+ h1.TituloGaleria{
+    font-size: 3rem;
+ 
+}  
+p.galeria{
+    font-size: 24px;
+    
+}   
+.carousel{
+    margin-bottom: 20px;
+}
+
+h1.Head__title {
+    
+    font-size: 3em;
+}
+
+p.Head__text{
+    font-size: 20px;
+}
+
+/* label.Nombre{
+   font-size: 1.4rem;
+}
+label.Apellido{
+    font-size: 1.4rem;
+} */
+
+.Formulario{
+    font-size: 1.4rem;
+}
+
+}
+
+
+
+
+@media(max-width: 1024px){
+    #titulo{
+    font-size: 60px;
+    text-align: justify;}     
+   
+
+    #Subtitulo{
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px){
+    /* INDEX */
+   
+    
+    .cardsContainer{
+    display:flex;
+    flex-wrap: wrap;
+    }
+
+
+    .cardsContainer__tarjetas{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .headIndex__titulo
+    {
+        font-size: 60px;
+        text-transform: capitalize;
+        
+    }
+
+    .headIndex__subtitulo
+    {
+        font-size: 20px;
+    }
+
+         
+    .caja{
+        display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+    /* Experiencias */
+   h1.Titulo__1 {
+        font-size: 54px;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+    }
+
+    p.Titulo__texto {
+        font-size: 24px;
+    }
+
+    .Visitas{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .Visitas__cards{
+        margin-bottom: 20px;
+    }
+
+.articulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.Galeria_texto{
+    font-size: 20px;
+}
+   
+h1.TituloContacto{
+    font-size: 45px;
+}
+
+p.SubtituloContacto{
+    font-size: 25px;
+}
+
+p.TextoContacto{
+    font-size: 22px;
+}
+
+form.Formulario{
+    font-size: 1.2rem;
+    align-items: stretch;
+    justify-content: center;
+ 
+} 
+.input{
+      width: 150px;
+  }  
+}
+    
+
+
+@media only screen and (min-width:769px){
+
+    .nav-item{
+        
+        margin: 0px 8px;
+        border-radius: 6px;
+        padding: 5px;
+    }
+
+    .headIndex__titulo
+    {
+        font-size: 80px;
+       
+         }
+
+    .headIndex__subtitulo
+    {
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .navbar-expand-lg .navbar-collapse {
+      background-color: rgba(255, 255, 255, 0.507);
+      margin-top: 30px;
+      border-radius: 6px; }
+    .navbar {
+      transform: translateY(-1%); }
+     }
